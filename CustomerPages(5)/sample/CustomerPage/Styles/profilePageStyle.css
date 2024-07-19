@@ -1,0 +1,56 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.profPage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    zoom:90%;
+}
+
+.profPage-profile-container {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.profPage-label-container {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+}
+
+.profPage-textbox {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    padding: 8px;
+    background: rgb(222, 225, 226);
+    border: 2px solid rgb(222, 225, 226);
+}
+
+.profPage-textbox:hover {
+    border-color: rgb(204, 204, 204);
+}
+
+.profPage-textbox:focus {
+    border-color: rgb(66, 103, 178);
+    background: rgb(255, 255, 255);
+}
+
+.profPage-button {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 150, 84);
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    margin: 20px 0;
+}

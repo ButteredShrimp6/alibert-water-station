@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="sample.MasterPage.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="adminMasterCss.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="master-body" onload="pageLoad()">
+    <form id="form1" runat="server" class="master-container">
+     <%--SideBar--%>
+    <aside class="master-aside">
+        <nav class="master-aside-nav">
+            <p class="master-logo">Alibert's Water <br />Refilling Station</p>
+            <asp:HyperLink ID="homeHL" runat="server" CssClass="master-hll" NavigateUrl="~/AdminPages/pages/Home.aspx">
+                <i class="fa-solid fa-house master-icons"></i>
+                <span>Home</span>
+            </asp:HyperLink>
+            <asp:HyperLink ID="productsHL" runat="server" CssClass="master-hll" NavigateUrl="~/AdminPages/pages/Products.aspx">
+                <i class="fa-solid fa-shop master-icons"></i>
+                <span>Products</span>
+            </asp:HyperLink>
+            <asp:HyperLink ID="ordersHL" runat="server" CssClass="master-hll master-order-position" NavigateUrl="~/AdminPages/pages/Orders.aspx">
+                <i class="fa-sharp fa-solid fa-basket-shopping master-icons"></i>
+                <span>Orders</span>
+                <span runat="server" class="master-order-reminder" visible="false">4</span>
+            </asp:HyperLink>
+            <asp:HyperLink ID="UsersHL" runat="server" CssClass="master-hll" NavigateUrl="~/AdminPages/pages/Users.aspx">
+                <i class="fa-solid fa-user master-icons"></i>
+                <span>Users</span>
+            </asp:HyperLink>
+            <asp:HyperLink ID="SalesHL" runat="server" CssClass="master-hll" NavigateUrl="~/AdminPages/pages/Sales.aspx">
+                <i class="fa-solid fa-square-poll-horizontal master-icons"></i>
+                <span>Sales</span>
+            </asp:HyperLink>
+            <button ID="btnLogOut" runat="server" class="master-aside-nav-button" onserverclick="btnLogOut_ServerClick">
+                <i class="fa-solid fa-power-off master-icons"></i>
+                <span>Log-out</span>
+            </button>
+        </nav>
+        <p class="master-copyright">
+            Copyright © 2023. All rights reserved. Malayan Colleges of Laguna
+        </p>
+    </aside>
+    <%--Main Content--%>
+    <main>
+        <asp:ContentPlaceHolder ID="Main" runat="server">
+        </asp:ContentPlaceHolder>
+    </main>      
+    </form>
+</body>
+</html>

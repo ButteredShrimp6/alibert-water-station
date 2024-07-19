@@ -1,0 +1,214 @@
+ .u-section-1 {
+  background-image: url("images/Seamlesswatertextureabstractpondbackground.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 740px;
+}
+
+.u-section-1 .u-text-1 {
+  width: 206px;
+  font-weight: 700;
+  margin: 44px auto 0;
+}
+
+.u-section-1 .u-group-1 {
+  width: 801px;
+  min-height: 536px;
+  height: auto;
+  margin: 16px 154px 60px auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 18px 30px;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 0 53px 0 auto;
+  padding: 9px 25px 9px 24px;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 24px 183px 0 auto;
+}
+
+.u-section-1 .u-text-3 {
+  margin: -22px auto 0 20px;
+}
+
+.u-section-1 .u-text-4 {
+  margin: 53px auto 0 20px;
+}
+
+.u-section-1 .u-text-5 {
+  margin: 50px auto 0 20px;
+}
+
+.u-section-1 .u-text-6 {
+  margin: 45px auto 0 24px;
+}
+
+.u-section-1 .u-text-7 {
+  margin: 53px auto 0 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 610px;
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-right: 140px;
+    margin-left: 123px;
+    height: auto;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 16px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 5px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-top: -6px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 467px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 720px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 350px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 144px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 220px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 89px;
+  }
+} .u-section-2 {
+  background-image: url("images/Seamlesswatertextureabstractpondbackground.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 710px;
+}
+
+.u-section-2 .u-group-1 {
+  width: 795px;
+  min-height: 574px;
+  height: auto;
+  margin: 61px 161px 60px auto;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-2 .u-tabs-1 {
+  min-height: 574px;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-2 .u-tab-link-1 {
+  background-image: none;
+}
+
+.u-section-2 .u-tab-link-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-2 .u-container-layout-3 {
+  padding: 30px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 400px;
+  }
+
+  .u-section-2 .u-group-1 {
+    margin-right: 145px;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-group-1 {
+    width: 720px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-group-1 {
+    width: 540px;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-group-1 {
+    width: 340px;
+  }
+}

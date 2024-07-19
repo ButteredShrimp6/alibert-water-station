@@ -1,0 +1,70 @@
+﻿body {
+}
+
+.button {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 150, 84);
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 150, 84);
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.navzoom {
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+    .navzoom:hover {
+        transform: scale(1.2);
+    }
+
+.textbox {
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(222, 225, 226);
+}
+
+    .textbox:hover {
+        border-color: rgb(204, 204, 204);
+    }
+
+    .textbox:focus {
+        border-color: rgb(66, 103, 178);
+    }
+
+.th-cancel-button {
+    font-size: 16px;
+    padding: 12px;
+    background-color: rgb(178, 59, 59);
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 200px;
+}
+.ddl {
+    flex: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    background: rgb(222, 225, 226);
+    border: 2px solid rgb(222, 225, 226);
+}

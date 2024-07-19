@@ -1,0 +1,132 @@
+ .u-section-1 {
+  background-image: url("images/Seamlesswatertextureabstractpondbackground.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 645px;
+}
+
+.u-section-1 .u-group-1 {
+  width: 778px;
+  min-height: 456px;
+  height: auto;
+  background-image: none;
+  margin: 109px auto 60px 173px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 30px 3px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 0 auto;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  border-style: solid;
+  margin: 3px 237px 0 auto;
+  padding: 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1rem;
+  margin: -26px auto 0 250px;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 50px auto 0 65px;
+}
+
+.u-section-1 .u-text-4 {
+  margin: 65px auto 0 65px;
+}
+
+.u-section-1 .u-btn-2 {
+  font-size: 1.125rem;
+  margin: 74px auto 0;
+  padding: 12px 262px 13px 261px;
+}
+
+.u-section-1 .u-btn-3 {
+  background-image: none;
+  border-style: solid;
+  margin: 20px 22px 0 auto;
+  padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 532px;
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-left: 163px;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 407px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 720px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 179px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 230px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 305px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 39px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 181px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 192px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 111px;
+  }
+}

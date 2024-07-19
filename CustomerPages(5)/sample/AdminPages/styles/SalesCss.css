@@ -1,0 +1,165 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h2{
+    margin: 0 auto 20px 0;
+}
+
+.salesPage-container {
+    min-width: 705px;
+    min-height: 450px;
+    margin: 70px 0 0 0;
+    padding: 1rem;
+    font-size: 14px;
+}
+
+.date-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    margin: 0 0 40px 0;
+    padding: 0 0 35px 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.date-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-sales-button {
+    background-color: rgb(50,205,50);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    min-width: 60px;
+    padding: 7px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+}
+
+table {
+    min-width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(39, 66, 121);
+}
+
+th,
+td {
+    padding: 1rem;
+    text-align: center;
+    white-space: nowrap;
+    width: calc(100% / 5);
+}
+
+th {
+    background-color: rgb(66, 103, 178);
+    color: rgb(255, 255, 255);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(247, 247, 247);
+}
+
+.search-sort-container {
+    margin: 0 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar, .date {
+    padding: 5px;
+    border: 1px solid rgb(128 128 128);
+    border-radius: 2px;
+}
+
+.date{
+    min-width: 200px;
+}
+
+.tbSearch-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.vertical-align {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.search-btn {
+    padding: 7px;
+    border: 1px solid rgb(128 128 128);
+    border-radius: 2px;
+}
+
+.tbsearch-clear-btn {
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    border: 1px solid rgb(128 128 128);
+    border-radius: 50%;
+    padding: 1px 3px;
+    font-size: 8px;
+}
+
+    .search-btn:hover, .tbsearch-clear-btn:hover {
+        background-color: rgb(235, 235, 235);
+        border: 1px solid rgb(80, 80, 80);
+        cursor: pointer;
+    }
+
+.datapager {
+    display: flex;
+    justify-content: right;
+    margin: 20px 0 0 0;
+    width: 100%;
+    gap: 5px;
+}
+
+.pagination {
+    padding: 7px 12px;
+    font-size: 14px;
+}
+
+    .pagination:hover {
+        cursor: pointer;
+    }
+
+.sort-buttons {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+}
+
+.empty {
+    text-align: center;
+}
+
+.dl-container {
+    display: inline-block;
+    align-self: flex-start;
+}
+
+.dl-section {
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+}
+
+.dl-buttons {
+    background-color: rgb(0, 0,0, 0);
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+    .dl-buttons:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }

@@ -1,0 +1,35 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.viewOrderPage-container, .tb-wrapper, .section-container {
+    display: flex;
+}
+
+.viewOrderPage-container {
+    margin: 100px 0 0 0;
+    padding: 1rem;
+    font-size: 16px;
+    gap: 50px;
+}
+
+.tb-wrapper, .section-container{
+    flex-direction: column;
+}
+
+.section-container{
+    gap: 60px;
+}
+
+.tb {
+    padding: 5px;
+    border: 1px solid rgb(128 128 128);
+    border-radius: 2px;
+    min-width: 90px;
+}
+
+
+

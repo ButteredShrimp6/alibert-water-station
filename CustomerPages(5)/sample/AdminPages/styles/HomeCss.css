@@ -1,0 +1,70 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin: 100px 0 0 0;
+    padding: 3rem;
+    font-size: 22px;
+}
+
+.row {
+    display: flex;
+    gap: 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+    position: relative;
+    min-width: 290px;
+    min-height: 120px;
+    border: 1px solid rgb(66, 103, 178);
+    border-radius: 10px;
+}
+
+.category-label {
+    align-self: flex-end;
+    color: rgb(66, 103, 178);
+    font-size: 16px;
+}
+
+.count-label {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+a:link,
+a:active,
+a:visited {
+    margin: auto 0 10px 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(66, 103, 178);
+}
+.hyperlink:hover{
+    cursor: pointer;
+}
+
+.card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: -20px;
+
+    background-color: rgb(66, 103, 178);
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    border-radius: 10px;
+
+    width: 80px;
+    height: 70px;
+}
